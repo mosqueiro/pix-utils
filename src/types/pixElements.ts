@@ -21,6 +21,7 @@ export enum PixElementType {
 
 export interface DynamicPixEmvElements extends PixEmvBasicElements {
   readonly type: PixElementType.DYNAMIC;
+  readonly transactionAmount?: number; // EL54  
   readonly url: string;
 }
 
