@@ -51,14 +51,12 @@ export function createEmv(elements: PixElements): string {
       EmvSchema.TAG_TRANSACTION_CURRENCY,
       elements.transactionCurrency
     ),
-    elements.type === PixElementType.STATIC
-      ? generateEmvElement(
+    generateEmvElement(
           EmvSchema.TAG_TRANSACTION_AMOUNT,
           elements.transactionAmount > 0
             ? elements.transactionAmount.toFixed(2)
             : ''
-        )
-      : '',
+        ),
     generateEmvElement(EmvSchema.TAG_COUNTRY_CODE, elements.countryCode),
     generateEmvElement(
       EmvSchema.TAG_MERCHANT_NAME,
