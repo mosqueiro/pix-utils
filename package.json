@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "@zcorefinance/pix-utils",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "author": "Erick Costa",
   "description": "Set of tools to parse, generate and validate payments of Brazil Instant Payment System (Pix)",
   "keywords": [
@@ -16,13 +16,13 @@
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
-  "homepage": "https://github.com/thalesog/pix-utils#readme",
+  "homepage": "https://github.com/mosqueiro/pix-utils#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thalesog/pix-utils.git"
+    "url": "https://github.com/mosqueiro/pix-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/thalesog/pix-utils/issues"
+    "url": "https://github.com/mosqueiro/pix-utils/issues"
   },
   "engines": {
     "npm": ">=6",
